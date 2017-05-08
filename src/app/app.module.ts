@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AutoGrowDirective } from './shared/auto-grow.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AutoGrowDirective
   ],
   imports: [
     BrowserModule,
