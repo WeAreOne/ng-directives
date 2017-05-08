@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AutoGrowDirective } from './shared/auto-grow.directive';
+import { UnlessDirective } from './shared/unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutoGrowDirective
+    AutoGrowDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
